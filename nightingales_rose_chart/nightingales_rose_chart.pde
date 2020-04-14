@@ -43,7 +43,7 @@ void draw() {
   float theta = 360 / numSectors;   // The increment angle (angle of each sector = 30 degrees)
 
   /** 
-   *  get angle of mouse wrt center of canvas
+   *  Get angle of mouse wrt center of canvas
    *  @link https://forum.processing.org/two/discussion/13609/hover-over-pie-chart-segment-and-show-the-array-value-associated
    *  @link https://processing.org/reference/atan2_.html
    */
@@ -115,7 +115,7 @@ void draw() {
     sliderPosX = 775;
 
   rect(sliderPosX, sliderPosY, sliderWidth, sliderHeight);                    // Draw the slider
-  sliderVal = (int) map(sliderPosX, 225, 775, 0, numSectors) + yearOffset;    // Map slider position to the integer range from 0 to number of sectors.
+  sliderVal = (int) map(sliderPosX, 225, 775, 1, numSectors) + yearOffset;    // Map slider position to the integer range from 0 to number of sectors.
 }
 
 /**
@@ -181,14 +181,15 @@ void mouseReleased() {
 }
 
 
-/* @link:https://processing.org/reference/mouseDragged_.html
- * Method used to rotate the chart by altering the initial angle (180 degrees) by the distance coverd by dragging the mouse in y direction.
+/* 
+ * Method used to set legend and instructions.
  */
 void setColourAndLegend(String text, int pos, int r, int g, int b) {
-  // show rects with text
+  // show rects with text and display instructions below slider
   if (!legendSet) {
     fill(0);
     stroke(0);
+    text("Scroll/pinch to Zoom.\nClick and drag to rotate.\nMove the slider to hide/show wedge",200,sliderPosY+30);
     textAlign(CENTER);
     text("DIAGRAM OF THE CAUSES OF MORTALITY", width/2, 60);
     text("IN THE ARMY IN THE EAST", width/2, 75);
@@ -198,22 +199,23 @@ void setColourAndLegend(String text, int pos, int r, int g, int b) {
     text(text, 800, 105 + 30*pos);
     fill(r, g, b);
     rect(780, 100 + 30*pos, 20, 20);
-  } 
+  }
   fill(r, g, b);
+  
 }
 
 void loadData() {
 String[] file = loadStrings("nightingale-data.csv"); 
-numRows = file.length;
+numRows = file.length;  
 fileData = new String[numRows][];
 for (int i = 0; i < file.length; i++) {
-  if (trim(file[i]).length() == 0) {
+  if (trim(file[i]).length() == 0 | i == 0) {
     continue;
   }   
   fileData[i] = split(file[i], ",");
-  labels[i] = fileData[i][0];
-  blueWedge[i] = Float.parseFloat(fileData[i][1]);
-  redWedge[i] = Float.parseFloat(fileData[i][2]);
-  blackWedge[i] = Float.parseFloat(fileData[i][3]);
+  labels[i - 1] = fileData[i][0];
+  blueWedge[i - 1] = Float.parseFloat(fileData[i][1]);
+  redWedge[i - 1] = Float.parseFloat(fileData[i][2]);
+  blackWedge[i - 1] = Float.parseFloat(fileData[i][3]);
 }       
 }
