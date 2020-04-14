@@ -1,12 +1,18 @@
-/*
-https://www.mathopenref.com/arcsectorarea.html
- https://understandinguncertainty.org/node/214
- 
- 
- https://processing.org/reference/text_.html
- */
+import processing.core.*; 
+import processing.data.*; 
+import processing.event.*; 
+import processing.opengl.*; 
 
-import java.util.Arrays;
+import java.util.Arrays; 
+
+import java.util.HashMap; 
+import java.util.ArrayList; 
+import java.io.File; 
+import java.io.BufferedReader; 
+import java.io.PrintWriter; 
+import java.io.InputStream; 
+import java.io.OutputStream; 
+import java.io.IOException; 
 
 String[][] fileData;
 int numRows;
@@ -30,15 +36,19 @@ boolean sliderLocked = false;
 float sliderOffset;
 int sliderVal = 12;
 
-void setup() {
+public void setup() {
   size(1000, 1000);                 // Create a canvas of 800 * 800 pixel
   noStroke();
   loadData();
   // noLoop();
 }
 
-void draw() {
+public void draw() {
   background(255);                  // Set background colour to white
+  fill(0);
+  stroke(0);
+  textAlign(LEFT);
+  text("Instructions:\nScroll/pinch to Zoom.\nClick and drag to rotate.\nMove the slider to hide/show wedge",100,sliderPosY-80);
   float lastAngle = initialAngle; 
   float theta = 360 / numSectors;   // The increment angle (angle of each sector = 30 degrees)
 
@@ -116,6 +126,7 @@ void draw() {
 
   rect(sliderPosX, sliderPosY, sliderWidth, sliderHeight);                    // Draw the slider
   sliderVal = (int) map(sliderPosX, 225, 775, 1, numSectors) + yearOffset;    // Map slider position to the integer range from 0 to number of sectors.
+  saveFrame("Demo.png");
 }
 
 /**
@@ -127,7 +138,7 @@ void draw() {
  * @param startAngle : The start offset used as reference in case if the chart is rotated. (default is PI radians)
  * @param i : Sector number to inde the labels array.
  */
-void drawSector(float xcord, float ycord, float theta, float sectorArea, float startAngle, int i) {
+public void drawSector(float xcord, float ycord, float theta, float sectorArea, float startAngle, int i) {
   float  sectorRadius = sqrt((sectorArea * numSectors)/PI)*scale;
   arc(xcord, ycord, sectorRadius, sectorRadius, radians(startAngle), radians(startAngle+theta)); // https://processing.org/reference/arc_.html
   if (isMax) {
@@ -146,11 +157,11 @@ void drawSector(float xcord, float ycord, float theta, float sectorArea, float s
 /* @link:https://processing.org/reference/mouseWheel_.html
  * Method used to zoom the coxcomb by changing the scale factor by the mouse scroll wheel events.
  */
-void mouseWheel(MouseEvent event) {
-  scale = scale - int(event.getCount());
+public void mouseWheel(MouseEvent event) {
+  scale = scale - PApplet.parseInt(event.getCount());
 }
 
-void mousePressed() {
+public void mousePressed() {
   if (sliderOver) {
     sliderLocked = true;
     sliderOffset = mouseX-sliderPosX;
@@ -161,11 +172,11 @@ void mousePressed() {
  * Method used to register change in the year slider when the sliderLocked is set by clicking on the slider.
  * And rotate the chart by altering the initial angle (180 degrees) by the distance coverd by dragging the mouse in y direction anywhere in the canvas.
  */
-void mouseDragged() {
+public void mouseDragged() {
   if (sliderLocked) {
     sliderPosX = mouseX-sliderVal;
   } else {
-    initialAngle = initialAngle - (mouseY - pmouseY)*(0.2);
+    initialAngle = initialAngle - (mouseY - pmouseY)*(0.2f);
     if (initialAngle == 360) {
       initialAngle = 0;
     }
@@ -175,7 +186,7 @@ void mouseDragged() {
 /* @link:https://processing.org/reference/mouseReleased.html
  * Method release lock on the slider.
  */
-void mouseReleased() {
+public void mouseReleased() {
   if (sliderLocked) 
     sliderLocked = false;
 }
@@ -184,12 +195,11 @@ void mouseReleased() {
 /* 
  * Method used to set legend and instructions.
  */
-void setColourAndLegend(String text, int pos, int r, int g, int b) {
+public void setColourAndLegend(String text, int pos, int r, int g, int b) {
   // show rects with text and display instructions below slider
   if (!legendSet) {
     fill(0);
     stroke(0);
-    text("Scroll/pinch to Zoom.\nClick and drag to rotate.\nMove the slider to hide/show wedge",200,sliderPosY+30);
     textAlign(CENTER);
     text("DIAGRAM OF THE CAUSES OF MORTALITY", width/2, 60);
     text("IN THE ARMY IN THE EAST", width/2, 75);
@@ -204,7 +214,7 @@ void setColourAndLegend(String text, int pos, int r, int g, int b) {
   
 }
 
-void loadData() {
+public void loadData() {
 String[] file = loadStrings("nightingale-data.csv"); 
 numRows = file.length;  
 fileData = new String[numRows][];
@@ -219,3 +229,9 @@ for (int i = 0; i < file.length; i++) {
   blackWedge[i - 1] = Float.parseFloat(fileData[i][3]);
 }       
 }
+
+/* Reference
+ * https://www.mathopenref.com/arcsectorarea.html
+ * https://understandinguncertainty.org/node/214 
+ * https://processing.org/reference/text_.html
+ */
