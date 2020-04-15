@@ -12,4 +12,4 @@ Processing Sketches for data viz assignments
 <img src="nightingales_rose_chart/output/Demo.png" height="800" width="800">
 
 3. Charles Joseph Minard's Map
-<img src="minards_map/output/Outout.jpg" height="500" width="800">
+<img src="minard_map/output/Outout.jpg" height="500" width="800">
