@@ -14,6 +14,8 @@ Processing Sketches for data viz assignments
 3. Charles Joseph Minard's Map
 <img src="minard_map/output/Outout.jpg" height="500" width="800">
 
+# Final assignment
+
 4. MotoGP viz.1 Bezier chart.
 <img src="motogp-novel-viz/output_viz1.jpg" height="1000" width="600">
 
