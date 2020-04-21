@@ -18,4 +18,4 @@ Processing Sketches for data viz assignments
 <img src="motogp-novel-viz/output_viz1.jpg" height="1000" width="600">
 
 5. MotoGP viz.2 3D globe bar chart.
-<img src="motogp-novel-viz/output_viz2.jpg" height="500" width="800">
+<img src="motogp-novel-viz/output_viz2.png" height="500" width="800">
