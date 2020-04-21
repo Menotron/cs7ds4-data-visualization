@@ -1,0 +1,277 @@
+﻿Season,Category,Rider,Country,Constructor
+2019,MotoE,Matteo Ferrari,ITALY,Energica
+2019,MotoGP,Marc Marquez,SPAIN,Honda
+2019,Moto2,Alex Marquez,SPAIN,Kalex
+2019,Moto3,Lorenzo Dalla Porta,ITALY,Honda
+2018,MotoGP,Marc Marquez,SPAIN,Honda
+2018,Moto2,Francesco Bagnaia,ITALY,Kalex
+2018,Moto3,Jorge Martin,SPAIN,Honda
+2017,MotoGP,Marc Marquez,SPAIN,Honda
+2017,Moto2,Franco Morbidelli,ITALY,Kalex
+2017,Moto3,Joan Mir,SPAIN,Honda
+2016,MotoGP,Marc Marquez,SPAIN,Honda
+2016,Moto2,Johann Zarco,FRANCE,Kalex
+2016,Moto3,Brad Binder,SOUTH AFRICA,KTM
+2015,MotoGP,Jorge Lorenzo,SPAIN,Yamaha
+2015,Moto2,Johann Zarco,FRANCE,Kalex
+2015,Moto3,Danny Kent,GREAT BRITAIN,Honda
+2014,MotoGP,Marc Marquez,SPAIN,Honda
+2014,Moto2,Tito Rabat,SPAIN,Kalex
+2014,Moto3,Alex Marquez,SPAIN,Honda
+2013,MotoGP,Marc Marquez,SPAIN,Honda
+2013,Moto2,Pol Espargaro,SPAIN,Kalex
+2013,Moto3,Maverick Viñales,SPAIN,KTM
+2012,MotoGP,Jorge Lorenzo,SPAIN,Yamaha
+2012,Moto2,Marc Marquez,SPAIN,Suter
+2012,Moto3,Sandro Cortese,GERMANY,KTM
+2011,125cc,Nicolas Terol,SPAIN,Aprilia
+2011,MotoGP,Casey Stoner,AUSTRALIA,Honda
+2011,Moto2,Stefan Bradl,GERMANY,Kalex
+2010,125cc,Marc Marquez,SPAIN,Derbi
+2010,MotoGP,Jorge Lorenzo,SPAIN,Yamaha
+2010,Moto2,Toni Elias,SPAIN,Moriwaki
+2009,125cc,Julian Simon,SPAIN,Aprilia
+2009,250cc,Hiroshi Aoyama,JAPAN,Honda
+2009,MotoGP,Valentino Rossi,ITALY,Yamaha
+2008,125cc,Mike Di Meglio,FRANCE,Derbi
+2008,250cc,Marco Simoncelli,ITALY,Gilera
+2008,MotoGP,Valentino Rossi,ITALY,Yamaha
+2007,125cc,Gabor Talmacsi,HUNGARY,Aprilia
+2007,250cc,Jorge Lorenzo,SPAIN,Aprilia
+2007,MotoGP,Casey Stoner,AUSTRALIA,Ducati
+2006,125cc,Alvaro Bautista,SPAIN,Aprilia
+2006,250cc,Jorge Lorenzo,SPAIN,Aprilia
+2006,MotoGP,Nicky Hayden,UNITED STATES,Honda
+2005,125cc,Thomas Luthi,SWITZERLAND,Honda
+2005,250cc,Dani Pedrosa,SPAIN,Honda
+2005,MotoGP,Valentino Rossi,ITALY,Yamaha
+2004,125cc,Andrea Dovizioso,ITALY,Honda
+2004,250cc,Dani Pedrosa,SPAIN,Honda
+2004,MotoGP,Valentino Rossi,ITALY,Yamaha
+2003,125cc,Dani Pedrosa,SPAIN,Honda
+2003,250cc,Manuel Poggiali,SAN MARINO,Aprilia
+2003,MotoGP,Valentino Rossi,ITALY,Honda
+2002,125cc,Arnaud Vincent,FRANCE,Aprilia
+2002,250cc,Marco Melandri,ITALY,Aprilia
+2002,MotoGP,Valentino Rossi,ITALY,Honda
+2001,125cc,Manuel Poggiali,SAN MARINO,Gilera
+2001,250cc,Daijiro Kato,JAPAN,Honda
+2001,500cc,Valentino Rossi,ITALY,Honda
+2000,125cc,Roberto Locatelli,ITALY,Aprilia
+2000,250cc,Olivier Jacque,FRANCE,Yamaha
+2000,500cc,Kenny Roberts Jr,UNITED STATES,Suzuki
+1999,125cc,Emilio Alzamora,SPAIN,Honda
+1999,250cc,Valentino Rossi,ITALY,Aprilia
+1999,500cc,Alex Criville,SPAIN,Honda
+1998,125cc,Kazuto Sakata,JAPAN,Honda
+1998,250cc,Loris Capirossi,ITALY,Aprilia
+1998,500cc,Mick Doohan,AUSTRALIA,Honda
+1997,125cc,Valentino Rossi,ITALY,Aprilia
+1997,250cc,Max Biaggi,ITALY,Honda
+1997,500cc,Mick Doohan,AUSTRALIA,Honda
+1996,125cc,Haruchika Aoki,JAPAN,Honda
+1996,250cc,Max Biaggi,ITALY,Aprilia
+1996,500cc,Mick Doohan,AUSTRALIA,Honda
+1995,125cc,Haruchika Aoki,JAPAN,Honda
+1995,250cc,Max Biaggi,ITALY,Aprilia
+1995,500cc,Mick Doohan,AUSTRALIA,Honda
+1994,125cc,Kazuto Sakata,JAPAN,Aprilia
+1994,250cc,Max Biaggi,ITALY,Aprilia
+1994,500cc,Mick Doohan,AUSTRALIA,Honda
+1993,125cc,Dirk Raudies,GERMANY,Honda
+1993,250cc,Tetsuya Harada,JAPAN,Yamaha
+1993,500cc,Kevin Schwantz,UNITED STATES,Suzuki
+1992,125cc,Alessandro Gramigni,ITALY,Aprilia
+1992,250cc,Luca Cadalora,ITALY,Honda
+1992,500cc,Wayne Rainey,UNITED STATES,Yamaha
+1991,125cc,Loris Capirossi,ITALY,Honda
+1991,250cc,Luca Cadalora,ITALY,Honda
+1991,500cc,Wayne Rainey,UNITED STATES,Yamaha
+1990,125cc,Loris Capirossi,ITALY,Honda
+1990,250cc,John Kocinski,UNITED STATES,Yamaha
+1990,500cc,Wayne Rainey,UNITED STATES,Yamaha
+1989,125cc,Alex Criville,SPAIN,JJ Cobas
+1989,80cc,Manuel Herreros,SPAIN,Derbi
+1989,250cc,Sito Pons,SPAIN,Honda
+1989,500cc,Eddie Lawson,UNITED STATES,Honda
+1988,125cc,Jorge Martinez,SPAIN,Derbi
+1988,80cc,Jorge Martinez,SPAIN,Derbi
+1988,250cc,Sito Pons,SPAIN,Honda
+1988,500cc,Eddie Lawson,UNITED STATES,Yamaha
+1987,125cc,Fausto Gresini,ITALY,Garelli
+1987,80cc,Jorge Martinez,SPAIN,Derbi
+1987,250cc,Anton Mang,GERMANY,Honda
+1987,500cc,Wayne Gardner,AUSTRALIA,Honda
+1986,125cc,Luca Cadalora,ITALY,Garelli
+1986,80cc,Jorge Martinez,SPAIN,Derbi
+1986,250cc,Carlos Lavado,VENEZUELA,Yamaha
+1986,500cc,Eddie Lawson,UNITED STATES,Yamaha
+1985,125cc,Fausto Gresini,ITALY,Garelli
+1985,80cc,Stefan Dörflinger,SWITZERLAND,Krauser
+1985,250cc,Freddie Spencer,UNITED STATES,Honda
+1985,500cc,Freddie Spencer,UNITED STATES,Honda
+1984,125cc,Angel Nieto,SPAIN,Garelli
+1984,80cc,Stefan Dörflinger,SWITZERLAND,Zundapp
+1984,250cc,Christian Sarron,FRANCE,Yamaha
+1984,500cc,Eddie Lawson,UNITED STATES,Yamaha
+1983,125cc,Angel Nieto,SPAIN,Garelli
+1983,50cc,Stefan Dörflinger,SWITZERLAND,Krauser
+1983,250cc,Carlos Lavado,VENEZUELA,Yamaha
+1983,500cc,Freddie Spencer,UNITED STATES,Honda
+1982,125cc,Angel Nieto,SPAIN,Garelli
+1982,350cc,Anton Mang,GERMANY,Kawasaki
+1982,50cc,Stefan Dörflinger,SWITZERLAND,Kreidler
+1982,250cc,Jean Louis Tournadre,FRANCE,Yamaha
+1982,500cc,Franco Uncini,ITALY,Suzuki
+1981,125cc,Angel Nieto,SPAIN,Minarelli
+1981,350cc,Anton Mang,GERMANY,Kawasaki
+1981,50cc,Ricardo Tormo,SPAIN,Motul Bultaco
+1981,250cc,Anton Mang,GERMANY,Kawasaki
+1981,500cc,Marco Lucchinelli,ITALY,Suzuki
+1980,125cc,Pierpaolo Bianchi,ITALY,MBA
+1980,350cc,Jonnie Ekerold,SOUTH AFRICA,Bimota-Yamaha
+1980,50cc,Eugenio Lazzarini,ITALY,Kreidler Van Veen
+1980,250cc,Anton Mang,GERMANY,Kawasaki
+1980,500cc,Kenny Roberts,UNITED STATES,Yamaha
+1979,125cc,Angel Nieto,SPAIN,Minarelli
+1979,350cc,Kork Ballington,SOUTH AFRICA,Kawasaki
+1979,50cc,Eugenio Lazzarini,ITALY,Kreidler
+1979,250cc,Kork Ballington,SOUTH AFRICA,Kawasaki
+1979,500cc,Kenny Roberts,UNITED STATES,Yamaha
+1978,125cc,Eugenio Lazzarini,ITALY,MBA
+1978,350cc,Kork Ballington,SOUTH AFRICA,Kawasaki
+1978,50cc,Ricardo Tormo,SPAIN,Bultaco
+1978,250cc,Kork Ballington,SOUTH AFRICA,Kawasaki
+1978,500cc,Kenny Roberts,UNITED STATES,Yamaha
+1977,125cc,Pierpaolo Bianchi,ITALY,Morbidelli
+1977,350cc,Takazumi Katayama,JAPAN,Yamaha
+1977,50cc,Angel Nieto,SPAIN,Bultaco
+1977,250cc,Mario Lega,ITALY,Morbidelli
+1977,500cc,Barry Sheene,GREAT BRITAIN,Suzuki
+1976,125cc,Pierpaolo Bianchi,ITALY,Morbidelli
+1976,350cc,Walter Villa,ITALY,Harley Davidson
+1976,50cc,Angel Nieto,SPAIN,Bultaco
+1976,250cc,Walter Villa,ITALY,Harley Davidson
+1976,500cc,Barry Sheene,GREAT BRITAIN,Suzuki
+1975,125cc,Paolo Pileri,ITALY,Morbidelli
+1975,350cc,Johnny Cecotto,VENEZUELA,Yamaha
+1975,50cc,Angel Nieto,SPAIN,Kreidler
+1975,250cc,Walter Villa,ITALY,Harley Davidson
+1975,500cc,Giacomo Agostini,ITALY,Yamaha
+1974,125cc,Kent Andersson,SWEDEN,Yamaha
+1974,350cc,Giacomo Agostini,ITALY,Yamaha
+1974,50cc,Henk Van Kessel,NETHERLANDS,Van Veen-Kreidler
+1974,250cc,Walter Villa,ITALY,Harley Davidson
+1974,500cc,Phil Read,GREAT BRITAIN,MV Agusta
+1973,125cc,Kent Andersson,SWEDEN,Yamaha
+1973,350cc,Giacomo Agostini,ITALY,MV Agusta
+1973,50cc,Jan De Vries,NETHERLANDS,Kreidler
+1973,250cc,Dieter Braun,GERMANY,Yamaha
+1973,500cc,Phil Read,GREAT BRITAIN,MV Agusta
+1972,125cc,Angel Nieto,SPAIN,Derbi
+1972,350cc,Giacomo Agostini,ITALY,MV Agusta
+1972,50cc,Angel Nieto,SPAIN,Derbi
+1972,250cc,Jarno Saarinen,FINLAND,Yamaha
+1972,500cc,Giacomo Agostini,ITALY,MV Agusta
+1971,125cc,Angel Nieto,SPAIN,Derbi
+1971,350cc,Giacomo Agostini,ITALY,MV Agusta
+1971,50cc,Jan De Vries,NETHERLANDS,Kreidler
+1971,250cc,Phil Read,GREAT BRITAIN,Yamaha
+1971,500cc,Giacomo Agostini,ITALY,MV Agusta
+1970,125cc,Dieter Braun,GERMANY,Suzuki
+1970,350cc,Giacomo Agostini,ITALY,MV Agusta
+1970,50cc,Angel Nieto,SPAIN,Derbi
+1970,250cc,Rodney Gould,GREAT BRITAIN,Yamaha
+1970,500cc,Giacomo Agostini,ITALY,MV Agusta
+1969,125cc,Dave Simmonds,GREAT BRITAIN,Kawasaki
+1969,350cc,Giacomo Agostini,ITALY,MV Agusta
+1969,50cc,Angel Nieto,SPAIN,Derbi
+1969,250cc,Kel Carruthers,AUSTRALIA,Benelli
+1969,500cc,Giacomo Agostini,ITALY,MV Agusta
+1968,125cc,Phil Read,GREAT BRITAIN,Yamaha
+1968,350cc,Giacomo Agostini,ITALY,MV Agusta
+1968,50cc,Hans-Georg Anscheidt,GERMANY,Suzuki
+1968,250cc,Phil Read,GREAT BRITAIN,Yamaha
+1968,500cc,Giacomo Agostini,ITALY,MV Agusta
+1967,125cc,Bill Ivy,GREAT BRITAIN,Yamaha
+1967,350cc,Mike Hailwood,GREAT BRITAIN,Honda
+1967,50cc,Hans-Georg Anscheidt,GERMANY,Suzuki
+1967,250cc,Mike Hailwood,GREAT BRITAIN,Honda
+1967,500cc,Giacomo Agostini,ITALY,MV Agusta
+1966,125cc,Luigi Taveri,SWITZERLAND,Honda
+1966,350cc,Mike Hailwood,GREAT BRITAIN,Honda
+1966,50cc,Hans-Georg Anscheidt,GERMANY,Suzuki
+1966,250cc,Mike Hailwood,GREAT BRITAIN,Honda
+1966,500cc,Giacomo Agostini,ITALY,MV Agusta
+1965,125cc,Hugh Anderson,NEW ZEALAND,Suzuki
+1965,350cc,Jim Redman,RHODESIA,Honda
+1965,50cc,Ralph Bryans,IRELAND,Honda
+1965,250cc,Phil Read,GREAT BRITAIN,Yamaha
+1965,500cc,Mike Hailwood,GREAT BRITAIN,MV Agusta
+1964,125cc,Luigi Taveri,SWITZERLAND,Honda
+1964,350cc,Jim Redman,RHODESIA,Honda
+1964,50cc,Hugh Anderson,NEW ZEALAND,Suzuki
+1964,250cc,Phil Read,GREAT BRITAIN,Yamaha
+1964,500cc,Mike Hailwood,GREAT BRITAIN,MV Agusta
+1963,125cc,Hugh Anderson,NEW ZEALAND,Suzuki
+1963,350cc,Jim Redman,RHODESIA,Honda
+1963,50cc,Hugh Anderson,NEW ZEALAND,Suzuki
+1963,250cc,Jim Redman,RHODESIA,Honda
+1963,500cc,Mike Hailwood,GREAT BRITAIN,MV Agusta
+1962,125cc,Luigi Taveri,SWITZERLAND,Honda
+1962,350cc,Jim Redman,RHODESIA,Honda
+1962,50cc,Ernst Degner,GERMANY,Suzuki
+1962,250cc,Jim Redman,RHODESIA,Honda
+1962,500cc,Mike Hailwood,GREAT BRITAIN,MV Agusta
+1961,125cc,Tom Phillis,AUSTRALIA,Honda
+1961,350cc,Gary Hocking,RHODESIA,MV Agusta
+1961,250cc,Mike Hailwood,GREAT BRITAIN,Honda
+1961,500cc,Gary Hocking,RHODESIA,MV Agusta
+1960,125cc,Carlo Ubbiali,ITALY,MV Agusta
+1960,350cc,John Surtees,GREAT BRITAIN,MV Agusta
+1960,250cc,Carlo Ubbiali,ITALY,MV Agusta
+1960,500cc,John Surtees,GREAT BRITAIN,MV Agusta
+1959,125cc,Carlo Ubbiali,ITALY,MV Agusta
+1959,350cc,John Surtees,GREAT BRITAIN,MV Agusta
+1959,250cc,Carlo Ubbiali,ITALY,MV Agusta
+1959,500cc,John Surtees,GREAT BRITAIN,MV Agusta
+1958,125cc,Carlo Ubbiali,ITALY,MV Agusta
+1958,350cc,John Surtees,GREAT BRITAIN,MV Agusta
+1958,250cc,Tarquinio Provini,ITALY,MV Agusta
+1958,500cc,John Surtees,GREAT BRITAIN,MV Agusta
+1957,125cc,Tarquinio Provini,ITALY,Mondial
+1957,350cc,Keith Campbell,AUSTRALIA,Moto Guzzi
+1957,250cc,Cecyl Sandford,GREAT BRITAIN,Mondial
+1957,500cc,Libero Liberati,ITALY,Gilera
+1956,125cc,Carlo Ubbiali,ITALY,MV Agusta
+1956,350cc,Bill Lomas,GREAT BRITAIN,Moto Guzzi
+1956,250cc,Carlo Ubbiali,ITALY,MV Agusta
+1956,500cc,John Surtees,GREAT BRITAIN,MV Agusta
+1955,125cc,Carlo Ubbiali,ITALY,MV Agusta
+1955,350cc,Bill Lomas,GREAT BRITAIN,Moto Guzzi
+1955,250cc,Hermann Paul Müller,GERMANY,NSU
+1955,500cc,Geoff Duke,GREAT BRITAIN,Gilera
+1954,125cc,Rupert Hollaus,AUSTRIA,NSU
+1954,350cc,Fergus Anderson,GREAT BRITAIN,Moto Guzzi
+1954,250cc,Werner Haas,GERMANY,NSU
+1954,500cc,Geoff Duke,GREAT BRITAIN,Gilera
+1953,125cc,Werner Haas,GERMANY,NSU
+1953,350cc,Fergus Anderson,GREAT BRITAIN,Moto Guzzi
+1953,250cc,Werner Haas,GERMANY,NSU
+1953,500cc,Geoff Duke,GREAT BRITAIN,Gilera
+1952,125cc,Cecyl Sandford,GREAT BRITAIN,MV Agusta
+1952,350cc,Geoff Duke,GREAT BRITAIN,Norton
+1952,250cc,Enrico Lorenzetti,ITALY,Moto Guzzi
+1952,500cc,Umberto Masetti,ITALY,Gilera
+1951,125cc,Carlo Ubbiali,ITALY,Mondial
+1951,350cc,Geoff Duke,GREAT BRITAIN,Norton
+1951,250cc,Bruno Ruffo,ITALY,Moto Guzzi
+1951,500cc,Geoff Duke,GREAT BRITAIN,Norton
+1950,125cc,Bruno Ruffo,ITALY,Mondial
+1950,350cc,Bob Foster,GREAT BRITAIN,Velocette
+1950,250cc,Dario Ambrosini,ITALY,Benelli
+1950,500cc,Umberto Masetti,ITALY,Gilera
+1949,125cc,Nello Pagani,ITALY,Mondial
+1949,350cc,Freddie Frith,GREAT BRITAIN,Velocette
+1949,250cc,Bruno Ruffo,ITALY,Moto Guzzi
+1949,500cc,Leslie Graham,GREAT BRITAIN,AJS

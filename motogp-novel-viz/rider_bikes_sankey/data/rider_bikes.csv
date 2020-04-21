@@ -1,0 +1,95 @@
+Rider,Bike,Points,Color,BkClr
+Aleix Espargaro,ART,93,f79999,9bf799
+Aleix Espargaro,Aprilia,92,f79999,f7e099
+Aleix Espargaro,Ducati,65,f79999,999ff7
+Aleix Espargaro,Forward Yamaha,126,f79999,99f7f2
+Aleix Espargaro,Honda,36,f79999,f79999
+Aleix Espargaro,Pons Kalex,76,f79999,f799f5
+Aleix Espargaro,Suzuki,105,f79999,99f7aa
+Alex Marquez,Honda,278,fc7e7e,f79999
+Alex Marquez,KTM,213,fc7e7e,fc7e7e
+Alex Marquez,Kalex,262,fc7e7e,fcca7e
+Alex Marquez,Suter Honda,27,fc7e7e,f7f199
+Alex Rins,Honda,237,f7cd99,f79999
+Alex Rins,KTM,311,f7cd99,fc7e7e
+Alex Rins,Kalex,234,f7cd99,fcca7e
+Alex Rins,Suter Honda,141,f7cd99,f7f199
+Alex Rins,Suzuki,205,f7cd99,99f7aa
+Andrea Dovizioso,Ducati,269,f7d999,999ff7
+Andrea Dovizioso,Honda,293,f7d999,f79999
+Andrea Dovizioso,Yamaha,218,f7d999,ba99f7
+Andrea Iannone,Aprilia,125,f7ec99,f7e099
+Andrea Iannone,Ducati,188,f7ec99,999ff7
+Andrea Iannone,Speed Up,199,f7ec99,b4f799
+Andrea Iannone,Suter,177,f7ec99,f799b7
+Andrea Iannone,Suzuki,133,f7ec99,99f7aa
+Brad Binder,KTM,319,eff799,fc7e7e
+Brad Binder,Kalex KTM,24,eff799,99cbf7
+Brad Binder,Mahindra,109,eff799,d3f799
+Cal Crutchlow,Ducati,74,e0f799,999ff7
+Cal Crutchlow,Honda,148,e0f799,f79999
+Cal Crutchlow,Yamaha,188,e0f799,ba99f7
+Danilo Petrucci,ART,17,c6f799,9bf799
+Danilo Petrucci,Ducati,176,c6f799,999ff7
+Fabio Quartararo,Honda,92,adf799,f79999
+Fabio Quartararo,KTM,83,adf799,fc7e7e
+Fabio Quartararo,Kalex,64,adf799,fcca7e
+Fabio Quartararo,Speed Up,138,adf799,b4f799
+Fabio Quartararo,Yamaha,192,adf799,ba99f7
+Francesco Bagnaia,Ducati,54,99f79f,999ff7
+Francesco Bagnaia,KTM,50,99f79f,fc7e7e
+Francesco Bagnaia,Kalex,306,99f79f,fcca7e
+Francesco Bagnaia,Mahindra,145,99f79f,d3f799
+Franco Morbidell,Honda,50,99f7c5,f79999
+Franco Morbidell,Kalex,308,99f7c5,fcca7e
+Franco Morbidell,Yamaha,115,99f7c5,ba99f7
+Jack Miller,Ducati,165,99f7e6,999ff7
+Jack Miller,FTR Honda,110,99f7e6,d899f7
+Jack Miller,Honda,82,99f7e6,f79999
+Jack Miller,KTM,276,99f7e6,fc7e7e
+Joan Mir,Honda,341,99f2f7,f79999
+Joan Mir,KTM,144,99f2f7,fc7e7e
+Joan Mir,Kalex,155,99f2f7,fcca7e
+Joan Mir,Suzuki,92,99f2f7,99f7aa
+Johann Zarco,Aprilia,77,99f2f7,f7e099
+Johann Zarco,Caterham Suter,146,99f2f7,6bff63
+Johann Zarco,Derbi,262,99f2f7,f799d5
+Johann Zarco,Honda,30,99f2f7,f79999
+Johann Zarco,Kalex,352,99f2f7,fcca7e
+Johann Zarco,Motobi,95,99f2f7,e6df6a
+Johann Zarco,Suter,141,99f2f7,f799b7
+Johann Zarco,Yamaha,174,99f2f7,ba99f7
+Marc Marquez,Derbi,310,99c0f7,f799d5
+Marc Marquez,Honda,420,99c0f7,f79999
+Marc Marquez,KTM,94,99c0f7,fc7e7e
+Marc Marquez,Suter,328,99c0f7,f799b7
+Maverick Viñales,Aprilia,248,999ff7,f7e099
+Maverick Viñales,FTR Honda,207,999ff7,d899f7
+Maverick Viñales,KTM,323,999ff7,fc7e7e
+Maverick Viñales,Kalex,274,999ff7,fcca7e
+Maverick Viñales,Suzuki,202,999ff7,99f7aa
+Maverick Viñales,Yamaha,230,999ff7,ba99f7
+Miguel Oliveira,Aprilia,44,b299f7,f7e099
+Miguel Oliveira,KTM,297,b299f7,fc7e7e
+Miguel Oliveira,Kalex,36,b299f7,fcca7e
+Miguel Oliveira,Mahindra,150,b299f7,d3f799
+Miguel Oliveira,Suter Honda,114,b299f7,f7f199
+Pol Espargaro,Aprilia,110,ce99f7,f7e099
+Pol Espargaro,Derbi,281,ce99f7,f799d5
+Pol Espargaro,FTR,75,ce99f7,e9f799
+Pol Espargaro,KTM,100,ce99f7,fc7e7e
+Pol Espargaro,Kalex,269,ce99f7,fcca7e
+Pol Espargaro,Yamaha,136,ce99f7,ba99f7
+Takaaki Nakagami,Aprilia,43,e999f7,f7e099
+Takaaki Nakagami,Honda,74,e999f7,f79999
+Takaaki Nakagami,Kalex,169,e999f7,fcca7e
+Tito Rabat,Aprilia,147,f799ea,f7e099
+Tito Rabat,Ducati,35,f799ea,999ff7
+Tito Rabat,FTR,79,f799ea,e9f799
+Tito Rabat,Honda,74,f799ea,f79999
+Tito Rabat,KTM,49,f799ea,fc7e7e
+Tito Rabat,Kalex,346,f799ea,fcca7e
+Valentino Rossi,Aprilia,321,f799af,f7e099
+Valentino Rossi,Ducati,163,f799af,999ff7
+Valentino Rossi,Honda,357,f799af,f79999
+Valentino Rossi,Yamaha,373,f799af,ba99f7
